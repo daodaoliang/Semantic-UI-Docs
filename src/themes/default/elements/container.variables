@@ -1,0 +1,34 @@
+/*******************************
+            Container
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+@maxWidth: 100%;
+
+/* Devices */
+@mobileWidth: auto;
+@tabletWidth: 752px;
+@smallComputerWidth: 960px;
+@largeComputerWidth: 1200px;
+
+@mobileGutter: 1em;
+@tabletGutter: auto;
+@smallComputerGutter: auto;
+@largeComputerGutter: auto;
+
+/* Adjust breakpoints to match fixed width */
+@smallComputerBreakpoint: 988px;
+@largeComputerBreakpoint: 1228px;
+
+/*-------------------
+       Types
+--------------------*/
+
+/* Text */
+@textWidth: 700px;
+@textFontFamily: @pageFont;
+@textLineHeight: 1.5;
+@textParagraphSize: @large;
